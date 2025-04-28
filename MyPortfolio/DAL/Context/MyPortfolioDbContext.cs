@@ -9,15 +9,15 @@ namespace MyPortfolio.DAL.Context
     {
         public MyPortfolioDbContext(DbContextOptions<MyPortfolioDbContext> options) : base(options) { }
 
-        DbSet<About> Abouts { get; set; }
-        DbSet<Contact> Contacts { get; set; }
-        DbSet<Experience> Experiences { get; set; }
-        DbSet<Feature> Features { get; set; }
-        DbSet<Message> Messages { get; set; }
-        DbSet<Portfolio> Portfolios { get; set; }
-        DbSet<Skill> Skills { get; set; }
-        DbSet<SocialMedia> SocialMedias { get; set; }
-        DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<About> Abouts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Experience> Experiences { get; set; }
+        public DbSet<Feature> Features { get; set; }
+        public DbSet<Message> Messages { get; set; }
+        public DbSet<Portfolio> Portfolios { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<SocialMedia> SocialMedias { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
 
     }
 }
